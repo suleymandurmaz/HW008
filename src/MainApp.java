@@ -8,6 +8,7 @@ public class MainApp {
         System.out.println();
         Daire daire1=new YuvarlakSehpa("Beyaz Sehpa : ",40,
                 false,40);
+        YuvarlakSehpa yuvarlakSehpa=((YuvarlakSehpa)daire1); 
         System.out.println(daire1);
         System.out.printf("Alan  = %5.2f\n",daire1.alanHesapla());
         System.out.printf("Hacim = %5.2f\n",daire1.hacimHesapla());
